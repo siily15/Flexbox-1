@@ -16,3 +16,9 @@
 .box8{background:slateblue ;}
 .box9{background:royalblue;}
 .box10{background:rosybrown ;}
+
+.container{
+    display:inline-flex;
+    border: 10px solid goldenrod;
+    height: 100vh;
+}
