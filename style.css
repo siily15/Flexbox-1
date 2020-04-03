@@ -1,8 +1,12 @@
-.box{
+body{
+    background-color: black;
+}
+
+.box {
     color: white;
     font-size: 100px;
     text-align: center;
-    text-shadow: 4px 4px 0 ;
+    text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1) ;
     padding: 10px;
 }
 
@@ -21,4 +25,9 @@
     display:inline-flex;
     border: 10px solid goldenrod;
     height: 100vh;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 300px;
 }
